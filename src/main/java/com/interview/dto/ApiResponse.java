@@ -1,8 +1,5 @@
 package com.interview.dto;
 
-/**
- * Base response wrapper for API responses.
- */
 public class ApiResponse<T> {
     private boolean success;
     private String message;

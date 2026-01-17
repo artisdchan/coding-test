@@ -3,10 +3,6 @@ package com.interview.model;
 import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
-/**
- * Base entity class with common fields.
- * Extend this class for your domain entities.
- */
 @MappedSuperclass
 public abstract class BaseEntity {
 
